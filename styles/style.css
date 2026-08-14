@@ -41,15 +41,6 @@ html {
   margin-bottom: 5px;
 }
 
-.content__list-container {
-  display: flex;
-  flex-direction: column;
-  height: 298px;
-  overflow: auto;
-  gap: 30px;
-  position: relative;
-}
-
 .content__details {
   flex-grow: 1;
   width: 100%;
@@ -71,9 +62,11 @@ html {
 
 .content__list-container {
   display: flex;
-  width: 399px;
   flex-direction: column;
-  gap: 24px;
+  width: 399px;
+  height: 298px;
+  overflow: auto;
+  gap: 30px;
   position: relative;
 }
 
