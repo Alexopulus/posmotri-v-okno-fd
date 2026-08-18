@@ -113,6 +113,7 @@ html {
 .content__video-card-description-container {
   flex-grow: 1;
   min-width: 196px;
+  padding: 0 1px;
 }
 
 .content__video-card-title {
@@ -124,6 +125,7 @@ html {
   font-size: 30px;
   line-clamp: 1;
   max-width: 199px;
+  line-height: 1.1;
 }
 
 .content__list-item {
@@ -170,6 +172,7 @@ html {
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
   color: #FFFFFF
 }
@@ -287,7 +290,7 @@ html {
 }
 
 .more-button {
-  height: 298px;
+  height: 34px;
 }
 
 .content__card-link:hover {
@@ -302,10 +305,6 @@ html {
 .content__card-link:active .content__video-card-description-container {
   background-color: #545050;
   color: #FFFFFF;
-  }
-
-.content__card-link:focus {
-  outline: none;
 }
 
 .content__card-link:focus-visible {
